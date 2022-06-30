@@ -1,0 +1,74 @@
+Argument Datatype: Int
+Argument ID: x 
+Argument Datatype: Char*
+Argument ID: b 
+Function Declare Return Type: Int
+Function Name: func
+ 
+Datatype:Int
+VariableName:a 
+Variable Declare
+ 
+VariableName:a
+Constant Number = 5
+Plus Operator = '+'
+Assignment Statement ---> Variable:x = 
+  
+String Output :"This is the CS202 Assignment"
+Assignment Statement ---> Variable:b = 
+  
+VariableName:x
+Return 
+
+
+Function Declare Return Type: Int
+Function Name: main
+ 
+Constant Number = 0
+Datatype:Int 
+VariableName:i
+Variable Declare and Initiated 
+ 
+Datatype:Int
+VariableName:j 
+Variable Declare
+ 
+Constant Number = 5
+Datatype:Int 
+VariableName:k
+Variable Declare and Initiated 
+ 
+VariableName:i
+VariableName:k
+Relational Operator: <=
+
+Datatype:Char* 
+VariableName:check 
+Variablevalue= "We are here" 
+Variable Declare and Initiated
+ 
+
+
+Constant Number = 10
+Assignment Statement ---> Variable:j = 
+  
+If_statement end
+Else_Statement end
+
+VariableName:j
+Constant Number = 0
+Relational Operator: >
+
+Datatype:Char*
+VariableName:l 
+ Variable Declare
+
+Constant Number = 10
+VariableName:l
+Function Call Name:func 
+
+
+WHILE LOOP ENDS
+
+
+

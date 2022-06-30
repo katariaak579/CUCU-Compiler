@@ -1,0 +1,82 @@
+Datatype: int
+Identifier: func
+Left_Paranthesis
+Datatype: int
+Identifier: x
+Comma: ,
+Datatype: char*
+Identifier: b
+Right_Paranthesis
+Left_Curly_Bracket
+Datatype: int
+Identifier: a
+Semicolon: ;
+Identifier: x
+Assign: =
+Identifier: a
+Operator_Plus
+NUM
+Semicolon: ;
+Identifier: b
+Assign: =
+Datatype: String
+Semicolon: ;
+Return Statement
+Identifier: x
+Semicolon: ;
+Right_Curly_Bracket
+Datatype: int
+Identifier: main
+Left_Paranthesis
+Right_Paranthesis
+Left_Curly_Bracket
+Datatype: int
+Identifier: i
+Assign: =
+NUM
+Semicolon: ;
+Datatype: int
+Identifier: j
+Semicolon: ;
+Datatype: int
+Identifier: k
+Assign: =
+NUM
+Semicolon: ;
+If_Statement
+Left_Paranthesis
+Identifier: i
+Relational Operator: <=Identifier: k
+Right_Paranthesis
+Left_Curly_Bracket
+Datatype: char*
+Identifier: check
+Assign: =
+Datatype: String
+Semicolon: ;
+Right_Curly_Bracket
+Else_Statement
+Left_Curly_Bracket
+Identifier: j
+Assign: =
+NUM
+Semicolon: ;
+Right_Curly_Bracket
+While_Loop_Statement
+Left_Paranthesis
+Identifier: j
+Relational Operator: >NUM
+Right_Paranthesis
+Left_Curly_Bracket
+Datatype: char*
+Identifier: l
+Semicolon: ;
+Identifier: func
+Left_Paranthesis
+NUM
+Comma: ,
+Identifier: l
+Right_Paranthesis
+Semicolon: ;
+Right_Curly_Bracket
+Right_Curly_Bracket
