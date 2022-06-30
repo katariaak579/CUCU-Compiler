@@ -1,27 +1,40 @@
-Assumptions taken in the compiler 
+There are 7 files in this folder : lexer.txt, parser.txt, cucu.l, cucu.y, Sample1.cu, Sample2.cu and README.txt.
 
-We cannot initiate or declare multiple variable with only one datatype states
-Eg: int a,b,c,d will give syntax error 
-whereas int a;int b;int c;int d; will not give any error
+The Following Instructions Should Be Followed While Running The Program :
+    A. Open the terminal in the directory 2020CSB1113 and Enter the following commands to run the program :
+        1. flex cucu.l
+        2. bison -d cucu.y
+        3. g++ cucu.tab.c lex.yy.c -lfl -o cucu
+        4. ./cucu
 
-There is no else if() statement 
+Cucu.l
 
-There is no bitwise operator like |,&
+    A. I've tokenized all the variable names, keywords, special characters and numbers.
+    B. It will give the output inside the lexer.txt file and print every token name in it.
 
-Modulo is also not added %
+cucu.y
 
-In parser.txt while printing the expression first it prints the variable names and then the operator (arithmaetic or realtional) between them.
+    A. This program contains the BNF grammar rules for the compiler.
+    B. This will give the output inside the parser.txt file and print the parsing of code.
+    C. If there would be any error in syntax then an error message Syntax Error is printed in the terminal and code returns from there.
 
-In if and if else statement it prints the if statement when the if statement has terminated and same is the case for else statement 
 
-In while loop it prints the WHILE LOOP HAS ENDED when the loop has been terminated 
+Sample1.cu
 
-In return statement it first tells the return value then species that it is being returned 
-In case nothing is returned only return is printed and no return value has been printed
+    A. This file contains the code which has correct synatx.
+    B. You can add your correct syntax code here and the program would parse it.
+    C. Comment the line 133 and uncomment the line 132 to run the program on this file.
 
-In Bool statement first the varibles are printed and then the relational operator.
+Sample2.cu
 
-It is expected that all the statements will be given inside either main function or any other function.
+    A. This file contains the code which has incorrect syntax.
+    B. You can add your incorrect synatx code here and the program would parse it and print the error if it is wrong.
+    C. Comment the line 132 and uncomment the line 133 to run the program on this file.
 
-In my sample1.cu is the syntactically correct code 
-In sample2.cu is the syntactically incorrect code as else statement cannot occur without if statement.
+lexer.txt
+
+    A. This file contains the output obtained by the cucu.l file, which are all the tokens in the code.
+
+parser.txt
+
+    A. This file stores the output obtained by the cucu.y file, which is parsed by the cucu.y file and printed the steps and different types of statements in it.
